@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d937042b-49c8-4c81-aa0b-cbeaa08866ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/classes/java/main/com/generic/MaxNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/classes/MaxNumberTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/test-results/test/TEST-MaxNumberTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/src/main/java/com/generic/MaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generic Java/src/test/java/MaxNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoodAnalyser/src/main/java/com/moodanalyser/MoodAnalyserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoodAnalyser/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoodAnalyser/src/main/java/com/moodanalyser/ObjectReflector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/OpenCSV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/java/com/bridgelabz/opencsv/CSVUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/java/com/bridgelabz/opencsv/OpenCSVReadAndParseToBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/java/com/bridgelabz/opencsv/OpenCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/java/com/bridgelabz/opencsv/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/resources/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSV/src/main/resources/uses-with-header.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UJzVEbFpKI0VEcdCRBz0h31Nvf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d937042b-49c8-4c81-aa0b-cbeaa08866ec" name="Default Changelist" comment="" />
+      <created>1575089507485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575089507485</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="28" width="847" height="677" key="#Project_Structure" timestamp="1575089900185">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="278" y="28" width="847" height="677" key="#Project_Structure/0.27.1366.682@0.27.1366.682" timestamp="1575089900185" />
+    <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2" timestamp="1575090926175">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
+  </component>
+</project>
