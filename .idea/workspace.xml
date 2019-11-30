@@ -50,12 +50,40 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/StateCensusData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/StateCode.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +97,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UJzVEbFpKI0VEcdCRBz0h31Nvf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,10 +112,108 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest">
+    <configuration name="StateCensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches&quot; --scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatecensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StatecensusAnalyserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.StateCensusAnalyserTest" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -118,13 +244,49 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="28" width="847" height="677" key="#Project_Structure" timestamp="1575089900185">
+    <state x="278" y="28" width="847" height="677" key="#Project_Structure" timestamp="1575098230998">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state x="278" y="28" width="847" height="677" key="#Project_Structure/0.27.1366.682@0.27.1366.682" timestamp="1575089900185" />
+    <state x="278" y="28" width="847" height="677" key="#Project_Structure/0.27.1366.682@0.27.1366.682" timestamp="1575098230998" />
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575106351933">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575106351933" />
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2" timestamp="1575090926175">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
+    <state width="1320" height="302" key="GridCell.Tab.0.bottom" timestamp="1575107047352">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="302" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575107047352" />
+    <state width="1320" height="302" key="GridCell.Tab.0.center" timestamp="1575107047349">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="302" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575107047349" />
+    <state width="1320" height="302" key="GridCell.Tab.0.left" timestamp="1575107047348">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="302" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575107047348" />
+    <state width="1320" height="302" key="GridCell.Tab.0.right" timestamp="1575107047350">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="302" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575107047350" />
+    <state width="1320" height="195" key="GridCell.Tab.1.bottom" timestamp="1575105537539">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="195" key="GridCell.Tab.1.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575105537539" />
+    <state width="1320" height="195" key="GridCell.Tab.1.center" timestamp="1575105537539">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="195" key="GridCell.Tab.1.center/0.27.1366.682@0.27.1366.682" timestamp="1575105537539" />
+    <state width="1320" height="195" key="GridCell.Tab.1.left" timestamp="1575105537539">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="195" key="GridCell.Tab.1.left/0.27.1366.682@0.27.1366.682" timestamp="1575105537539" />
+    <state width="1320" height="195" key="GridCell.Tab.1.right" timestamp="1575105537539">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state width="1320" height="195" key="GridCell.Tab.1.right/0.27.1366.682@0.27.1366.682" timestamp="1575105537539" />
   </component>
 </project>

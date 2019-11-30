@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="statecensusanalyserproblem.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-30T09:42:47" hostname="admin265-H110M-H" time="0.17">
+  <properties/>
+  <testcase name="checkToEnsure_NumberOfRecordsMatches" classname="statecensusanalyserproblem.StateCensusAnalyserTest" time="0.17"/>
+  <system-out><![CDATA[com.opencsv.bean.CsvToBean@5a32a4df
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
