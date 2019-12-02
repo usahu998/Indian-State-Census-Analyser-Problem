@@ -94,5 +94,17 @@ public class StateCensusAnalyserTest {
         }
     }
 
+    @Test
+    public void givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException() throws IOException, CensusCsvException {
+        try {
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.java");
+            int value = stateCensusAnalyser.readStateCensusInformation();
+            Assert.assertEquals(29, value);
+        } catch (CensusCsvException e) {
+            System.out.println(e.getMessage());
+            Assert.assertEquals("Exception due to incorrect delimiter position", e.getMessage());
+        }
+    }
+
 
 }

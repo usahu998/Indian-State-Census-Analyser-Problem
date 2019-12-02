@@ -61,6 +61,8 @@ public class StateCensusAnalyser {
         } catch (NoSuchFileException e) {
             if (STATE_CENSUS_INFO_CSV_FILE_PATH.contains(".csv"))
             {throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);}
+        }catch (RuntimeException e) {
+            throw new CensusCsvException("Exception due to incorrect delimiter position", CensusCsvException.ExceptionType.NO_SUCH_FIELD);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
