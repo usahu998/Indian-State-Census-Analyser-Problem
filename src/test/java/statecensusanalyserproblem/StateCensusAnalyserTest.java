@@ -52,16 +52,13 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundNoHeader_ShouldReturnException()
-    {
+    public void givenMethod_ifFoundNoHeader_ShouldReturnException() {
 
         try {
             StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
             int value = stateCensusAnalyser.readStateData();
             Assert.assertEquals(37, value);
-        }
-        catch (CensusCsvException e)
-        {
+        } catch (CensusCsvException e) {
             System.out.println(e.getMessage());
             Assert.assertEquals("Exception due to Header", e.getMessage());
         }
@@ -72,6 +69,18 @@ public class StateCensusAnalyserTest {
         StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
         int count = stateCensusAnalyser.readStateCensusInformation();
         Assert.assertEquals(29, count);
-
     }
+
+    @Test
+    public void givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException() throws IOException {
+        StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
+        try {
+            int value = stateCensusAnalyser.readStateCensusInformation();
+            Assert.assertEquals(29, value);
+        } catch (CensusCsvException e) {
+            System.out.println(e.getMessage());
+            Assert.assertEquals("Please enter proper file name", e.getMessage());
+        }
+    }
+
 }
