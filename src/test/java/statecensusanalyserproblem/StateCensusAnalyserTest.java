@@ -9,18 +9,26 @@ import java.io.IOException;
 
 public class StateCensusAnalyserTest {
     @Test
-    public void checkToEnsure_NumberOfRecordsMatches() throws IOException, CsvException {
+    public void checkToEnsure_NumberOfRecordsMatches() throws CsvException {
         StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
         Assert.assertEquals(37, stateCensusAnalyser.readStateData());
     }
 
     @Test
     public void givenWrongFileName_ShouldThrowNoSuchFileException() throws CsvException {
+        StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin165/Desktop/censusAnalyser/src/main/resources/StateCode12.csv");
+        //  int checkNumberOfRecords = stateCensusAnalyser.readStateData();
+        Assert.assertEquals(37, stateCensusAnalyser.readStateData());
+    }
+
+    @Test
+    public void givenWrongFileType_ShouldThrowRunTimeException() {
         try {
-            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin165/Desktop/censusAnalyser/src/main/resources/StateCode12.csv");
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/gradlew.bat");
             int checkNumberOfRecords = stateCensusAnalyser.readStateData();
         } catch (CsvException e) {
-            Assert.assertEquals("Such type file doesn't exist", e.getMessage());
+            e.printStackTrace();
+            Assert.assertEquals("binding of file to failed", e.getMessage());
         }
     }
 }
