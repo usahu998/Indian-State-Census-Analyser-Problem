@@ -106,5 +106,16 @@ public class StateCensusAnalyserTest {
         }
     }
 
+    @Test
+    public void givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException() {
 
+        try {
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
+            int value = stateCensusAnalyser.readStateData();
+            Assert.assertEquals(29, value);
+        } catch (CensusCsvException e) {
+            System.out.println(e.getMessage());
+            Assert.assertEquals("Exception due to Header", e.getMessage());
+        }
+    }
 }

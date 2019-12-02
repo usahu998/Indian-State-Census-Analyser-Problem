@@ -2,6 +2,7 @@ package com.bridgelabz.statecensusanalyserproblem;
 
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
+import com.bridgelabz.statecensusanalyserproblem.CSVStatesCensus;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -20,6 +21,13 @@ public class StateCensusAnalyser {
         this.STATE_CODE_CSV_FILE_PATH = STATE_CODE_CSV_FILE_PATH;
     }
 
+    public StateCensusAnalyser(String STATE_CODE_CSV_FILE_PATH, String STATE_CENSUS_INFO_CSV_FILE_PATH) {
+        this.STATE_CODE_CSV_FILE_PATH = STATE_CODE_CSV_FILE_PATH;
+        this.STATE_CENSUS_INFO_CSV_FILE_PATH = STATE_CENSUS_INFO_CSV_FILE_PATH;
+    }
+
+    CSVStatesCensus csvStatesCensus = new CSVStatesCensus();
+
     public int readStateData() throws CensusCsvException {
         int count = 0;
         try (Reader reader = Files.newBufferedReader(Paths.get(STATE_CODE_CSV_FILE_PATH))) {
@@ -36,8 +44,9 @@ public class StateCensusAnalyser {
                 }
             }
         } catch (NoSuchFileException e) {
-            if (STATE_CODE_CSV_FILE_PATH.contains(".csv"))
-            {throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);}
+            if (STATE_CODE_CSV_FILE_PATH.contains(".csv")) {
+                throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
+            }
         } catch (RuntimeException e) {
             throw new CensusCsvException("Exception due to incorrect delimiter position", CensusCsvException.ExceptionType.NO_SUCH_FIELD);
         } catch (IOException e) {
@@ -57,11 +66,15 @@ public class StateCensusAnalyser {
             while (stateIterator.hasNext()) {
                 CSVStatesCensus csvStatesCensus = stateIterator.next();
                 count++;
+                if (csvStatesCensus.getState() == null || csvStatesCensus.getAreaInSqKm() == null || csvStatesCensus.getDensityPerSqKm() == null || csvStatesCensus.getPopulation() == null) {
+                    throw new CensusCsvException("Exception due to Header", CensusCsvException.ExceptionType.NO_SUCH_HEADER);
+                }
             }
         } catch (NoSuchFileException e) {
-            if (STATE_CENSUS_INFO_CSV_FILE_PATH.contains(".csv"))
-            {throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);}
-        }catch (RuntimeException e) {
+            if (STATE_CENSUS_INFO_CSV_FILE_PATH.contains(".csv")) {
+                throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
+            }
+        } catch (RuntimeException e) {
             throw new CensusCsvException("Exception due to incorrect delimiter position", CensusCsvException.ExceptionType.NO_SUCH_FIELD);
         } catch (IOException ex) {
             ex.printStackTrace();
