@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="statecensusanalyserproblem.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T07:20:59" hostname="admin265-H110M-H" time="0.005">
+<testsuite name="statecensusanalyserproblem.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T07:33:53" hostname="admin265-H110M-H" time="0.128">
   <properties/>
-  <testcase name="givenWrongFileName_ShouldThrowNoSuchFileException" classname="statecensusanalyserproblem.StateCensusAnalyserTest" time="0.005"/>
-  <system-out><![CDATA[Please enter proper file name
-]]></system-out>
+  <testcase name="givenMethod_ifFoundNoHeader_ShouldReturnException" classname="statecensusanalyserproblem.StateCensusAnalyserTest" time="0.128"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

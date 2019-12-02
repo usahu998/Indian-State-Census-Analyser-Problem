@@ -50,4 +50,21 @@ public class StateCensusAnalyserTest {
             Assert.assertEquals("Exception due to incorrect delimiter position", e.getMessage());
         }
     }
+
+    @Test
+    public void givenMethod_ifFoundNoHeader_ShouldReturnException()
+    {
+
+        try {
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
+            int value = stateCensusAnalyser.readStateData();
+            Assert.assertEquals(37, value);
+        }
+        catch (CensusCsvException e)
+        {
+            System.out.println(e.getMessage());
+            Assert.assertEquals("Exception due to Header", e.getMessage());
+        }
+
+    }
 }
