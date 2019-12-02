@@ -14,11 +14,11 @@ public class StateCensusAnalyser {
 
 
     private String STATE_CODE_CSV_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv";
+    private String STATE_CENSUS_INFO_CSV_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv";
 
     public StateCensusAnalyser(String STATE_CODE_CSV_FILE_PATH) {
         this.STATE_CODE_CSV_FILE_PATH = STATE_CODE_CSV_FILE_PATH;
     }
-
 
     public int readStateData() throws CensusCsvException {
         int count = 0;
@@ -43,6 +43,24 @@ public class StateCensusAnalyser {
             throw new CensusCsvException("Exception due to incorrect delimiter position", CensusCsvException.ExceptionType.NO_SUCH_FIELD);
         } catch (IOException e) {
             e.printStackTrace();
+        }
+        return count;
+    }
+
+    public int readStateCensusInformation() throws CensusCsvException {
+        int count = 0;
+        try (Reader reader = Files.newBufferedReader(Paths.get(STATE_CENSUS_INFO_CSV_FILE_PATH))) {
+            CsvToBean<CSVStatesCensus> csvToBean = new CsvToBeanBuilder(reader)
+                    .withIgnoreLeadingWhiteSpace(true)
+                    .withType(CSVStatesCensus.class)
+                    .build();
+            Iterator<CSVStatesCensus> stateIterator = csvToBean.iterator();
+            while (stateIterator.hasNext()) {
+                CSVStatesCensus csvStatesCensus = stateIterator.next();
+                count++;
+            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
         return count;
     }

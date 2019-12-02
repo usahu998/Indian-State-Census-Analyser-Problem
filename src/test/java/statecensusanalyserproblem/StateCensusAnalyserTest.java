@@ -65,6 +65,13 @@ public class StateCensusAnalyserTest {
             System.out.println(e.getMessage());
             Assert.assertEquals("Exception due to Header", e.getMessage());
         }
+    }
+
+    @Test
+    public void givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue() throws IOException, CensusCsvException {
+        StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
+        int count = stateCensusAnalyser.readStateCensusInformation();
+        Assert.assertEquals(29, count);
 
     }
 }
