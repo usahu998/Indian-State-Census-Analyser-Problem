@@ -83,4 +83,16 @@ public class StateCensusAnalyserTest {
         }
     }
 
+    @Test
+    public void givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse() {
+        try {
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/gradlew.bat");
+            int checkNumberOfRecords = stateCensusAnalyser.readStateCensusInformation();
+        } catch (CensusCsvException e) {
+            e.printStackTrace();
+            Assert.assertEquals("binding of file to failed", e.getMessage());
+        }
+    }
+
+
 }
