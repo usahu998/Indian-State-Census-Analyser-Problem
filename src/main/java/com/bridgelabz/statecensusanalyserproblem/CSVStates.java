@@ -54,5 +54,14 @@ public class CSVStates {
         this.StateCode = stateCode;
     }
 
+    @Override
+    public String toString() {
+        return "CSVStates{" +
+                "SrNo=" + SrNo +
+                ", StateName='" + StateName + '\'' +
+                ", TIN='" + TIN + '\'' +
+                ", StateCode='" + StateCode + '\'' +
+                '}';
+    }
 }
 

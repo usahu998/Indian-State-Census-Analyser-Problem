@@ -1,19 +1,26 @@
 package com.bridgelabz.statecensusanalyserproblem;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.bridgelabz.statecensusanalyserproblem.CSVStatesCensus;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
 
 public class StateCensusAnalyser {
 
     private String CSV_FILE_PATH;
+    private static String SAMPLE_JSON_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/CSVStatesCensusJsonFile.json";
 
     public StateCensusAnalyser(String CSV_FILE_PATH) {
         this.CSV_FILE_PATH = CSV_FILE_PATH;
@@ -30,20 +37,18 @@ public class StateCensusAnalyser {
                     .withType(eClass)
                     .build();
             Iterator stateIterator = csvToBean.iterator();
+            List<CSVStatesCensus> statesCensusList = new ArrayList<>();
             while (stateIterator.hasNext()) {
-                E csv = (E) stateIterator.next();
+                CSVStatesCensus csv = (CSVStatesCensus) stateIterator.next();
+                statesCensusList.add(csv);
                 count++;
-                if (csv instanceof CSVStates) {
-                    if (((CSVStates) csv).getSrNo() == null || ((CSVStates) csv).getStateName() == null || ((CSVStates) csv).getTIN() == null || ((CSVStates) csv).getStateCode() == null) {
-                        throw new CensusCsvException("Exception due to Header or mismatch data", CensusCsvException.ExceptionType.NO_SUCH_HEADER);
-                    }
-                }
                 if (csv instanceof CSVStatesCensus) {
                     if (((CSVStatesCensus) csv).getState() == null || ((CSVStatesCensus) csv).getAreaInSqKm() == null || ((CSVStatesCensus) csv).getDensityPerSqKm() == null || ((CSVStatesCensus) csv).getPopulation() == null) {
                         throw new CensusCsvException("Exception due to Header or mismatch data", CensusCsvException.ExceptionType.NO_SUCH_HEADER);
                     }
                 }
             }
+            stateAlphabeticalOrder((List<CSVStatesCensus>) statesCensusList);
         } catch (NoSuchFileException e) {
             if (CSV_FILE_PATH.contains(".csv")) {
                 throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
@@ -56,4 +61,14 @@ public class StateCensusAnalyser {
         return count;
     }
 
+    public void stateAlphabeticalOrder(List<CSVStatesCensus> statesCensusList) throws IOException {
+        Comparator<CSVStatesCensus> c = (s1, s2) -> s1.getState().compareTo(s2.getState());
+        statesCensusList.sort(c);
+        System.out.println(statesCensusList);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(statesCensusList);
+        FileWriter writer = new FileWriter(SAMPLE_JSON_FILE_PATH);
+        writer.write(json);
+        writer.close();
+    }
 }
