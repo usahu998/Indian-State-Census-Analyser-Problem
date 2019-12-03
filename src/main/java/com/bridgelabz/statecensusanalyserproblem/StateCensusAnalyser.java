@@ -13,17 +13,10 @@ import java.util.Iterator;
 
 public class StateCensusAnalyser {
 
+    private String CSV_FILE_PATH;
 
-    private String STATE_CODE_CSV_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv";
-    private String STATE_CENSUS_INFO_CSV_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv";
-
-    public StateCensusAnalyser(String STATE_CODE_CSV_FILE_PATH) {
-        this.STATE_CODE_CSV_FILE_PATH = STATE_CODE_CSV_FILE_PATH;
-    }
-
-    public StateCensusAnalyser(String STATE_CODE_CSV_FILE_PATH, String STATE_CENSUS_INFO_CSV_FILE_PATH) {
-        this.STATE_CODE_CSV_FILE_PATH = STATE_CODE_CSV_FILE_PATH;
-        this.STATE_CENSUS_INFO_CSV_FILE_PATH = STATE_CENSUS_INFO_CSV_FILE_PATH;
+    public StateCensusAnalyser(String CSV_FILE_PATH) {
+        this.CSV_FILE_PATH = CSV_FILE_PATH;
     }
 
     CSVStatesCensus csvStatesCensus = new CSVStatesCensus();
@@ -31,8 +24,8 @@ public class StateCensusAnalyser {
 
     public <E> int readStateData(Class<E> eClass) throws CensusCsvException {
         int count = 0;
-        try (Reader reader = Files.newBufferedReader(Paths.get(STATE_CODE_CSV_FILE_PATH))) {
-            CsvToBean<CSVStates> csvToBean = new CsvToBeanBuilder(reader)
+        try (Reader reader = Files.newBufferedReader(Paths.get(CSV_FILE_PATH))) {
+            CsvToBean<E> csvToBean = new CsvToBeanBuilder(reader)
                     .withIgnoreLeadingWhiteSpace(true)
                     .withType(eClass)
                     .build();
@@ -45,14 +38,14 @@ public class StateCensusAnalyser {
                         throw new CensusCsvException("Exception due to Header or mismatch data", CensusCsvException.ExceptionType.NO_SUCH_HEADER);
                     }
                 }
-                if (csv instanceof CSVStatesCensus){
+                if (csv instanceof CSVStatesCensus) {
                     if (((CSVStatesCensus) csv).getState() == null || ((CSVStatesCensus) csv).getAreaInSqKm() == null || ((CSVStatesCensus) csv).getDensityPerSqKm() == null || ((CSVStatesCensus) csv).getPopulation() == null) {
                         throw new CensusCsvException("Exception due to Header or mismatch data", CensusCsvException.ExceptionType.NO_SUCH_HEADER);
                     }
                 }
             }
         } catch (NoSuchFileException e) {
-            if (STATE_CODE_CSV_FILE_PATH.contains(".csv")) {
+            if (CSV_FILE_PATH.contains(".csv")) {
                 throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
             }
         } catch (RuntimeException e) {

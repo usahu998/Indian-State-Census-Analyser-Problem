@@ -8,13 +8,10 @@ public class CSVStatesCensus {
 
     @CsvBindByName
     private String state;
-
     @CsvBindByName
     private Double population;
-
     @CsvBindByName
     private Double areaInSqKm;
-
     @CsvBindByName
     private Double densityPerSqKm;
 

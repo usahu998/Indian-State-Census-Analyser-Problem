@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.284s</div>
+<div class="counter">0.247s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,52 +82,52 @@
 </thead>
 <tr>
 <td class="success">checkToEnsure_NumberOfRecordsMatches</td>
-<td class="success">0.039s</td>
+<td class="success">0.079s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue</td>
-<td class="success">0.015s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">givenMethod_ifFoundIncorrectDelimiterPosition_ShouldReturnException</td>
-<td class="success">0.133s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException</td>
-<td class="success">0.017s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException</td>
 <td class="success">0.014s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenMethod_ifFoundIncorrectDelimiterPosition_ShouldReturnException</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">givenMethod_ifFoundNoHeader_ShouldReturnException</td>
-<td class="success">0.037s</td>
+<td class="success">0.038s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenWrongFileName_ShouldThrowNoSuchFileException</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenWrongFilePath_ShouldThrowRunTimeException</td>
-<td class="success">0.007s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse</td>
-<td class="success">0.018s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -135,7 +135,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Please enter proper file name
+<pre>Exception due to Header or mismatch data
+Please enter proper file name
 Exception due to Header or mismatch data
 </pre>
 </span>
@@ -144,8 +145,8 @@ Exception due to Header or mismatch data
 <h2>Standard error</h2>
 <span class="code">
 <pre>com.bridgelabz.statecensusanalyserproblem.CensusCsvException: Exception due to Header or mismatch data
-	at com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser.readStateData(StateCensusAnalyser.java:50)
-	at statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse(StateCensusAnalyserTest.java:92)
+	at com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser.readStateData(StateCensusAnalyser.java:43)
+	at statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse(StateCensusAnalyserTest.java:91)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -194,8 +195,8 @@ Exception due to Header or mismatch data
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 com.bridgelabz.statecensusanalyserproblem.CensusCsvException: Exception due to Header or mismatch data
-	at com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser.readStateData(StateCensusAnalyser.java:45)
-	at statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException(StateCensusAnalyserTest.java:37)
+	at com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser.readStateData(StateCensusAnalyser.java:38)
+	at statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException(StateCensusAnalyserTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -254,7 +255,7 @@ com.bridgelabz.statecensusanalyserproblem.CensusCsvException: Exception due to H
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 03-Dec-2019, 9:53:58 AM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 03-Dec-2019, 10:51:04 AM</p>
 </div>
 </div>
 </body>

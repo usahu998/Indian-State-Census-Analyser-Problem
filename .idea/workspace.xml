@@ -75,7 +75,9 @@
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CsvStateCensusCode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/IncorrectStatecode.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
@@ -90,20 +92,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/StateCensusData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/StateCensusData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -307,34 +306,38 @@
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="278" y="28" width="847" height="677" key="#Project_Structure/0.27.1366.682@0.27.1366.682" timestamp="1575098230998" />
+    <state x="416" y="125" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575348171488">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="416" y="125" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.682@0.27.1366.682" timestamp="1575348171488" />
     <state x="100" y="125" width="1166" height="484" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575346685326">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="100" y="125" width="1166" height="484" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.682@0.27.1366.682" timestamp="1575346685326" />
-    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575287194595">
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575348325732">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575287194595" />
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575348325732" />
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2" timestamp="1575090926175">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1575346609094">
+    <state width="1320" height="25" key="GridCell.Tab.0.bottom" timestamp="1575349037853">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575346609094" />
-    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1575346609093">
+    <state width="1320" height="25" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575349037853" />
+    <state width="1320" height="25" key="GridCell.Tab.0.center" timestamp="1575349037850">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575346609093" />
-    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1575346609093">
+    <state width="1320" height="25" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575349037850" />
+    <state width="1320" height="25" key="GridCell.Tab.0.left" timestamp="1575349037849">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575346609093" />
-    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1575346609094">
+    <state width="1320" height="25" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575349037849" />
+    <state width="1320" height="25" key="GridCell.Tab.0.right" timestamp="1575349037852">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575346609094" />
+    <state width="1320" height="25" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575349037852" />
     <state width="1320" height="172" key="GridCell.Tab.1.bottom" timestamp="1575295052156">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
@@ -359,37 +362,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>31</line>
-          <properties class="com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser" method="readStateData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java</url>
-          <line>69</line>
+          <line>68</line>
           <properties class="statecensusanalyserproblem.StateCensusAnalyserTest" method="givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue">
             <option name="EMULATED" value="true" />
           </properties>

@@ -7,7 +7,6 @@ import com.bridgelabz.statecensusanalyserproblem.CensusCsvException;
 import com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser;
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.io.IOException;
 
 public class StateCensusAnalyserTest {
@@ -44,7 +43,7 @@ public class StateCensusAnalyserTest {
     @Test
     public void givenMethod_ifFoundIncorrectDelimiterPosition_ShouldReturnException() throws IOException, CensusCsvException {
         try {
-            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/IncorrectStatecode.csv");
             int value = stateCensusAnalyser.readStateData(CSVStates.class);
             Assert.assertEquals(37, value);
         } catch (CensusCsvException e) {
