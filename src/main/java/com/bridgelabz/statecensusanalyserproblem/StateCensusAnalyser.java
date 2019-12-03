@@ -21,7 +21,7 @@ public class StateCensusAnalyser {
 
     private String CSV_FILE_PATH;
     private static String SAMPLE_JSON_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/CSVStatesCensusJsonFile.json";
-
+private static String POPULATION_JSON_FILE_PATH="/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/Population .json";
     public StateCensusAnalyser(String CSV_FILE_PATH) {
         this.CSV_FILE_PATH = CSV_FILE_PATH;
     }
@@ -49,6 +49,7 @@ public class StateCensusAnalyser {
                 }
             }
             stateAlphabeticalOrder((List<CSVStatesCensus>) statesCensusList);
+            mostPopulatedState((List<CSVStatesCensus>) statesCensusList);
         } catch (NoSuchFileException e) {
             if (CSV_FILE_PATH.contains(".csv")) {
                 throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
@@ -68,6 +69,17 @@ public class StateCensusAnalyser {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String json = gson.toJson(statesCensusList);
         FileWriter writer = new FileWriter(SAMPLE_JSON_FILE_PATH);
+        writer.write(json);
+        writer.close();
+    }
+
+    public void mostPopulatedState(List<CSVStatesCensus> statesCensusList) throws IOException {
+        Comparator<CSVStatesCensus> c = (s1, s2) -> Integer.parseInt(s2.getPopulation().trim()) - Integer.parseInt(s1.getPopulation().trim());
+        statesCensusList.sort(c);
+        System.out.println(statesCensusList);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(statesCensusList);
+        FileWriter writer = new FileWriter(POPULATION_JSON_FILE_PATH);
         writer.write(json);
         writer.close();
     }

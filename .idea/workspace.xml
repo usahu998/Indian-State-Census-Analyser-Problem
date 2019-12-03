@@ -91,22 +91,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CsvStateCensusCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CsvStateCensusCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/CSVStatesCensusJsonFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/CSVStatesCensusJsonFile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStatesCensus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CsvStateCensusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CsvStateCensusCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CSVStatesCensusJsonFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVStatesCensusJsonFile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +161,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException">
+  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException">
     <configuration name="StateCensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,12 +202,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -226,12 +222,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -268,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" />
         <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException" />
         <item itemvalue="Gradle.StateCensusAnalyserTest" />
         <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue" />
         <item itemvalue="Gradle.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException" />
       </list>
     </recent_temporary>
   </component>
@@ -317,30 +313,30 @@
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="100" y="125" width="1166" height="484" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.682@0.27.1366.682" timestamp="1575346685326" />
-    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575378305162">
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575381771602">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575378305162" />
+    <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575381771602" />
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2" timestamp="1575090926175">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
-    <state width="1320" height="72" key="GridCell.Tab.0.bottom" timestamp="1575379588517">
+    <state width="1320" height="194" key="GridCell.Tab.0.bottom" timestamp="1575382022878">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="72" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575379588517" />
-    <state width="1320" height="72" key="GridCell.Tab.0.center" timestamp="1575379588517">
+    <state width="1320" height="194" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575382022878" />
+    <state width="1320" height="194" key="GridCell.Tab.0.center" timestamp="1575382022876">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="72" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575379588517" />
-    <state width="1320" height="72" key="GridCell.Tab.0.left" timestamp="1575379588516">
+    <state width="1320" height="194" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575382022876" />
+    <state width="1320" height="194" key="GridCell.Tab.0.left" timestamp="1575382022875">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="72" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575379588516" />
-    <state width="1320" height="72" key="GridCell.Tab.0.right" timestamp="1575379588517">
+    <state width="1320" height="194" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575382022875" />
+    <state width="1320" height="194" key="GridCell.Tab.0.right" timestamp="1575382022877">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="72" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575379588517" />
+    <state width="1320" height="194" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575382022877" />
     <state width="1320" height="172" key="GridCell.Tab.1.bottom" timestamp="1575295052156">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
