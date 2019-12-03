@@ -77,7 +77,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/CSVStatesCensusJsonFile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/PopulationDensity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/LargestStateArea.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
@@ -91,12 +91,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/CSVStatesCensusJsonFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/CSVStatesCensusJsonFile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Population .json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Population .json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
@@ -320,22 +319,22 @@
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
-    <state width="1320" height="219" key="GridCell.Tab.0.bottom" timestamp="1575383132108">
+    <state width="1320" height="219" key="GridCell.Tab.0.bottom" timestamp="1575383697684">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575383132108" />
-    <state width="1320" height="219" key="GridCell.Tab.0.center" timestamp="1575383132106">
+    <state width="1320" height="219" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575383697684" />
+    <state width="1320" height="219" key="GridCell.Tab.0.center" timestamp="1575383697684">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575383132106" />
-    <state width="1320" height="219" key="GridCell.Tab.0.left" timestamp="1575383132104">
+    <state width="1320" height="219" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575383697684" />
+    <state width="1320" height="219" key="GridCell.Tab.0.left" timestamp="1575383697683">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575383132104" />
-    <state width="1320" height="219" key="GridCell.Tab.0.right" timestamp="1575383132107">
+    <state width="1320" height="219" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575383697683" />
+    <state width="1320" height="219" key="GridCell.Tab.0.right" timestamp="1575383697684">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575383132107" />
+    <state width="1320" height="219" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575383697684" />
     <state width="1320" height="172" key="GridCell.Tab.1.bottom" timestamp="1575295052156">
       <screen x="0" y="27" width="1366" height="682" />
     </state>

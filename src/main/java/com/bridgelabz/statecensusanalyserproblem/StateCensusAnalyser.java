@@ -23,6 +23,7 @@ public class StateCensusAnalyser {
     private static String SAMPLE_JSON_FILE_PATH = "/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/CSVStatesCensusJsonFile.json";
 private static String POPULATION_JSON_FILE_PATH="/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/Population .json";
 private static String POPULATION_DENSITY_JSON_FILE_PATH="/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/PopulationDensity.json";
+    private static String LARGEST_STATE_AREA_JSON_FILE_PATH="/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/LargestStateArea.json";
 public StateCensusAnalyser(String CSV_FILE_PATH) {
         this.CSV_FILE_PATH = CSV_FILE_PATH;
     }
@@ -52,6 +53,7 @@ public StateCensusAnalyser(String CSV_FILE_PATH) {
             stateAlphabeticalOrder((List<CSVStatesCensus>) statesCensusList);
             mostPopulatedState((List<CSVStatesCensus>) statesCensusList);
             populationDensityState((List<CSVStatesCensus>) statesCensusList);
+            largestStateArea((List<CSVStatesCensus>) statesCensusList);
         } catch (NoSuchFileException e) {
             if (CSV_FILE_PATH.contains(".csv")) {
                 throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
@@ -93,6 +95,17 @@ public StateCensusAnalyser(String CSV_FILE_PATH) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String json = gson.toJson(statesCensusList);
         FileWriter writer = new FileWriter(POPULATION_DENSITY_JSON_FILE_PATH);
+        writer.write(json);
+        writer.close();
+    }
+
+    public void largestStateArea(List<CSVStatesCensus> statesCensusList) throws IOException {
+        Comparator<CSVStatesCensus> c = (s1, s2) -> Integer.parseInt(s2.getAreaInSqKm().trim()) - Integer.parseInt(s1.getAreaInSqKm().trim());
+        statesCensusList.sort(c);
+        System.out.println(statesCensusList);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(statesCensusList);
+        FileWriter writer = new FileWriter(LARGEST_STATE_AREA_JSON_FILE_PATH);
         writer.write(json);
         writer.close();
     }
