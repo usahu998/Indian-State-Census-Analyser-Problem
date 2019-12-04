@@ -19,7 +19,7 @@ public class CSVStates {
         return SrNo;
     }
 
-    public void setSrNo(int srNo) {
+    public void setSrNo(Integer srNo) {
         SrNo = srNo;
     }
 
@@ -47,7 +47,7 @@ public class CSVStates {
         StateCode = stateCode;
     }
 
-    public CSVStates(int srNo, String stateName, String TIN, String stateCode) {
+    public CSVStates(Integer srNo, String stateName, String TIN, String stateCode) {
         this.SrNo = srNo;
         this.StateName = stateName;
         this.TIN = TIN;
