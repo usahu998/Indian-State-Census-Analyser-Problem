@@ -13,6 +13,11 @@ import java.io.IOException;
 public class StateCensusAnalyserTest {
 
     @Test
+    public void checkToEnsure_NumberOfRecordsMatches() throws CensusCsvException {
+        StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
+    }
+
+    @Test
     public void givenWrongFileName_ShouldThrowNoSuchFileException() {
         StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode12.csv");
         try {

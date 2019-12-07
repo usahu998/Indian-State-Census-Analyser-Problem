@@ -32,7 +32,7 @@ public class StateCensusAnalyser {
     CSVStatesCensus csvStatesCensus = new CSVStatesCensus();
     CSVStates csvStates = new CSVStates();
 
-    public <E> int readStateData(Class<E> eClass,String sortBy ) throws CensusCsvException {
+    public <E> int readStateData(Class<E> eClass, String sortBy) throws CensusCsvException {
         int count = 0;
         List<E> statesCensusList = new ArrayList<>();
         try (Reader reader = Files.newBufferedReader(Paths.get(filePath))) {
@@ -56,7 +56,7 @@ public class StateCensusAnalyser {
                     }
                 }
             }
-            sortingList((List<CSVStatesCensus>) statesCensusList,sortBy);
+            sortingList((List<CSVStatesCensus>) statesCensusList, sortBy);
         } catch (NoSuchFileException e) {
             if (filePath.contains(".csv")) {
                 throw new CensusCsvException("Please enter proper file name", CensusCsvException.ExceptionType.NO_SUCH_FILE);
