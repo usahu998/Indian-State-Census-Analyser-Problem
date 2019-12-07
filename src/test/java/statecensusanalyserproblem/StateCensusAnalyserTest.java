@@ -140,4 +140,15 @@ public class StateCensusAnalyserTest {
             Assert.assertEquals("Exception due to Header", e.getMessage());
         }
     }
+
+    @Test
+    public void givenCsvFile_ifSortByPopulationDensityState_ShouldReturnTrue() {
+        try {
+            StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
+            int value = stateCensusAnalyser.readStateData(CSVStatesCensus.class,"populationDensityState");
+            Assert.assertEquals(29, value);
+        } catch (CensusCsvException e) {
+            Assert.assertEquals("Exception due to Header", e.getMessage());
+        }
+    }
 }
