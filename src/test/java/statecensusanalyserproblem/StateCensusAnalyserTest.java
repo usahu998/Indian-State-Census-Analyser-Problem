@@ -41,7 +41,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundIncorrectDelimiterPosition_ShouldReturnException() {
+    public void givenCsvFile_ifFoundIncorrectDelimiterPosition_ShouldReturnException() {
         try {
             StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/IncorrectStatecode.csv");
             int value = stateCensusAnalyser.readStateData(CSVStates.class,"");
@@ -52,7 +52,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundNoHeader_ShouldReturnException() {
+    public void givenCsvFile_ifFoundNoHeader_ShouldReturnException() {
 
         try {
             StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCode.csv");
@@ -64,7 +64,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue() {
+    public void givenCsvFile_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue() {
         StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
         int count = 0;
         try {
@@ -76,7 +76,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException() throws IOException {
+    public void givenCsvFile_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException() throws IOException {
         StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
         try {
             int value = stateCensusAnalyser.readStateData(CSVStatesCensus.class,"");
@@ -98,7 +98,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException() throws IOException, CensusCsvException {
+    public void givenCsvFile_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException() throws IOException, CensusCsvException {
         try {
             StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
             int value = stateCensusAnalyser.readStateData(CSVStatesCensus.class,"");
@@ -109,7 +109,7 @@ public class StateCensusAnalyserTest {
     }
 
     @Test
-    public void givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException() {
+    public void givenCsvFile_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException() {
         try {
             StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser("/home/admin265/IdeaProjects/StateCensusAnalyserProblem/src/main/resources/StateCensusData.csv");
             int value = stateCensusAnalyser.readStateData(CSVStatesCensus.class,"");

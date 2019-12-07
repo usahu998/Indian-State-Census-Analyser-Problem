@@ -96,8 +96,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCensusData.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/StateCode.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +154,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder">
+  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortByLargestStateArea_ShouldReturnTrue">
     <configuration name="StateCensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -177,12 +175,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenCsvFile_ifSortByLargestStateArea_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenCsvFile_ifSortByLargestStateArea_ShouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,12 +195,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenCsvFile_ifSortByMostPopulatedState_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenCsvFile_ifSortByMostPopulatedState_ShouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -217,12 +215,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenCsvFile_ifSortByPopulationDensityState_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenCsvFile_ifSortByPopulationDensityState_ShouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -237,12 +235,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder_ShouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -259,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortByLargestStateArea_ShouldReturnTrue" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortByPopulationDensityState_ShouldReturnTrue" />
         <item itemvalue="Gradle.StateCensusAnalyserTest" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortByMostPopulatedState_ShouldReturnTrue" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenCsvFile_ifSortBystateAlphabeticalOrder_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -324,22 +322,22 @@
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state width="509" height="438" key="DebuggerActiveHint/0.27.1366.682@0.27.1366.682" timestamp="1575465879188" />
-    <state width="1320" height="211" key="GridCell.Tab.0.bottom" timestamp="1575716091485">
+    <state width="1320" height="211" key="GridCell.Tab.0.bottom" timestamp="1575717692269">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="211" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575716091485" />
-    <state width="1320" height="211" key="GridCell.Tab.0.center" timestamp="1575716091485">
+    <state width="1320" height="211" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575717692269" />
+    <state width="1320" height="211" key="GridCell.Tab.0.center" timestamp="1575717692268">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="211" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575716091485" />
-    <state width="1320" height="211" key="GridCell.Tab.0.left" timestamp="1575716091484">
+    <state width="1320" height="211" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575717692268" />
+    <state width="1320" height="211" key="GridCell.Tab.0.left" timestamp="1575717692268">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="211" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575716091484" />
-    <state width="1320" height="211" key="GridCell.Tab.0.right" timestamp="1575716091485">
+    <state width="1320" height="211" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575717692268" />
+    <state width="1320" height="211" key="GridCell.Tab.0.right" timestamp="1575717692268">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="211" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575716091485" />
+    <state width="1320" height="211" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575717692268" />
     <state width="1320" height="141" key="GridCell.Tab.1.bottom" timestamp="1575466911358">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
