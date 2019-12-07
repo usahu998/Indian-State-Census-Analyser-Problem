@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="statecensusanalyserproblem.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-07T11:19:37" hostname="admin265-H110M-H" time="0.153">
+<testsuite name="statecensusanalyserproblem.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-07T11:21:08" hostname="admin265-H110M-H" time="0.169">
   <properties/>
-  <testcase name="givenCsvFile_ifSortByPopulationDensityState_ShouldReturnTrue" classname="statecensusanalyserproblem.StateCensusAnalyserTest" time="0.153"/>
+  <testcase name="givenCsvFile_ifSortByLargestStateArea_ShouldReturnTrue" classname="statecensusanalyserproblem.StateCensusAnalyserTest" time="0.169"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
