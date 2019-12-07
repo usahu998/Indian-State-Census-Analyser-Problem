@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d937042b-49c8-4c81-aa0b-cbeaa08866ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/classes/java/main/com/bridgelabz/addressbookproblem/model/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/classes/java/main/com/bridgelabz/addressbookproblem/service/PersonaServiceImp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/classes/java/test/AddressBookTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/classes/AddressBookTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/test-results/test/TEST-AddressBookTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressBookProblem/build/test-results/test/binary/results.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Generic Java/.idea/misc.xml" afterDir="false" />
@@ -56,20 +72,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/resources/main/StateCensusData.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/resources/main/StateCode.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
@@ -91,19 +96,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/CSVStates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/statecensusanalyserproblem/StateCensusAnalyserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/statecensusanalyserproblem.StateCensusAnalyserTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/statecensusanalyserproblem.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/LargestStateArea.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/LargestStateArea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/CSVStates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Population .json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Population .json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/PopulationDensity.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/PopulationDensity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-statecensusanalyserproblem.StateCensusAnalyserTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LargestStateArea.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LargestStateArea.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Population .json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Population .json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PopulationDensity.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PopulationDensity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../User Registration/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -163,7 +174,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches">
+  <component name="RunManager" selected="Gradle.StateCensusAnalyserTest">
     <configuration name="StateCensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,12 +215,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -224,12 +235,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -244,12 +255,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StateCensusAnalyserTest.givenMethod_ifFoundNoHeader_ShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse&quot;" />
+        <option name="scriptParameters" value="--tests &quot;statecensusanalyserproblem.StateCensusAnalyserTest.givenMethod_ifFoundNoHeader_ShouldReturnException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -266,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
         <item itemvalue="Gradle.StateCensusAnalyserTest" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundNoHeaderInCSVStatusCensus_ShouldReturnException" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenWrongFilePath_ShouldThrowRunTimeException_ReturnFalse" />
-        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectName_OfStatesCensusFile_ShouldThrowException" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundIncorrectDelimiterPositionInCSVStatusCensus_ShouldReturnException" />
+        <item itemvalue="Gradle.StateCensusAnalyserTest.givenMethod_ifFoundNoHeader_ShouldReturnException" />
       </list>
     </recent_temporary>
   </component>
@@ -319,76 +330,61 @@
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="491" y="86" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.682@0.27.1366.682" timestamp="1575381771602" />
+    <state x="0" y="27" width="1356" height="682" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575712889004">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="0" y="27" width="1356" height="682" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.682@0.27.1366.682" timestamp="1575712889004" />
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2" timestamp="1575090926175">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="153" y="27" width="1050" height="682" key="CommitChangelistDialog2/0.27.1366.682@0.27.1366.682" timestamp="1575090926175" />
-    <state width="1320" height="206" key="GridCell.Tab.0.bottom" timestamp="1575437955134">
+    <state width="509" height="438" key="DebuggerActiveHint" timestamp="1575465879188">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state width="1320" height="206" key="GridCell.Tab.0.center" timestamp="1575437955134">
+    <state width="509" height="438" key="DebuggerActiveHint/0.27.1366.682@0.27.1366.682" timestamp="1575465879188" />
+    <state width="1320" height="282" key="GridCell.Tab.0.bottom" timestamp="1575549778343">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state width="1320" height="206" key="GridCell.Tab.0.left" timestamp="1575437955133">
+    <state width="1320" height="282" key="GridCell.Tab.0.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575549778343" />
+    <state width="1320" height="282" key="GridCell.Tab.0.center" timestamp="1575549778342">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575437955133" />
-    <state width="1320" height="206" key="GridCell.Tab.0.right" timestamp="1575437955176">
+    <state width="1320" height="282" key="GridCell.Tab.0.center/0.27.1366.682@0.27.1366.682" timestamp="1575549778342" />
+    <state width="1320" height="282" key="GridCell.Tab.0.left" timestamp="1575549778342">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575437955176" />
-    <state width="1320" height="206" key="GridCell.Tab.1.bottom" timestamp="1575437955134">
+    <state width="1320" height="282" key="GridCell.Tab.0.left/0.27.1366.682@0.27.1366.682" timestamp="1575549778342" />
+    <state width="1320" height="282" key="GridCell.Tab.0.right" timestamp="1575549778342">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.1.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state width="1320" height="206" key="GridCell.Tab.1.center" timestamp="1575437955134">
+    <state width="1320" height="282" key="GridCell.Tab.0.right/0.27.1366.682@0.27.1366.682" timestamp="1575549778342" />
+    <state width="1320" height="141" key="GridCell.Tab.1.bottom" timestamp="1575466911358">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.1.center/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state width="1320" height="206" key="GridCell.Tab.1.left" timestamp="1575437955134">
+    <state width="1320" height="141" key="GridCell.Tab.1.bottom/0.27.1366.682@0.27.1366.682" timestamp="1575466911358" />
+    <state width="1320" height="141" key="GridCell.Tab.1.center" timestamp="1575466911357">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.1.left/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state width="1320" height="206" key="GridCell.Tab.1.right" timestamp="1575437955134">
+    <state width="1320" height="141" key="GridCell.Tab.1.center/0.27.1366.682@0.27.1366.682" timestamp="1575466911357" />
+    <state width="1320" height="141" key="GridCell.Tab.1.left" timestamp="1575466911357">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state width="1320" height="206" key="GridCell.Tab.1.right/0.27.1366.682@0.27.1366.682" timestamp="1575437955134" />
-    <state x="339" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1575346238163">
+    <state width="1320" height="141" key="GridCell.Tab.1.left/0.27.1366.682@0.27.1366.682" timestamp="1575466911357" />
+    <state width="1320" height="141" key="GridCell.Tab.1.right" timestamp="1575466911358">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
-    <state x="339" y="194" key="com.intellij.ide.util.TipDialog/0.27.1366.682@0.27.1366.682" timestamp="1575346238163" />
+    <state width="1320" height="141" key="GridCell.Tab.1.right/0.27.1366.682@0.27.1366.682" timestamp="1575466911358" />
+    <state x="339" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1575520168672">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="339" y="194" key="com.intellij.ide.util.TipDialog/0.27.1366.682@0.27.1366.682" timestamp="1575520168672" />
+    <state x="0" y="27" width="1356" height="682" key="new project wizard" timestamp="1575521387564">
+      <screen x="0" y="27" width="1366" height="682" />
+    </state>
+    <state x="0" y="27" width="1356" height="682" key="new project wizard/0.27.1366.682@0.27.1366.682" timestamp="1575521387564" />
     <state x="346" y="30" width="672" height="678" key="search.everywhere.popup" timestamp="1575378481308">
       <screen x="0" y="27" width="1366" height="682" />
     </state>
     <state x="346" y="30" width="672" height="678" key="search.everywhere.popup/0.27.1366.682@0.27.1366.682" timestamp="1575378481308" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java</url>
-          <line>68</line>
-          <properties class="statecensusanalyserproblem.StateCensusAnalyserTest" method="givenMethod_CheckNumberOfRecodesMatchesOrNot_ForStatesCensus_ShouldReturnTrue">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/statecensusanalyserproblem/StateCensusAnalyser.java</url>
-          <line>33</line>
-          <properties class="com.bridgelabz.statecensusanalyserproblem.StateCensusAnalyser" method="readStateData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/statecensusanalyserproblem/StateCensusAnalyserTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
